@@ -4,10 +4,12 @@ using namespace std;
 int main()
 {
     double m, fm , fa, N, a, b;
-
-    cout<<"Enter a Positive Number: ";
-    cin>>N;
-
+    do
+    {
+        cout<<"Enter a Positive Number: ";
+        cin>>N;
+    } while (N<0);
+    
     a = 0.0;
 
     if(N < 1.0)
